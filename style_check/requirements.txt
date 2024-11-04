@@ -1,0 +1,6 @@
+openai==0.28.0
+pandas
+pinecone-client==3.0.2
+tiktoken
+ipywidgets
+ipython
