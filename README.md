@@ -11,6 +11,14 @@ This is an editing tool for journalists to check their work after writing their 
 In production it would look like this:
 ![image](https://github.com/user-attachments/assets/c52e5986-63c7-47b4-9174-d3350bbe4f5d)
 
+## How it works
+This works in 2 stages.
+Part 1 
+Rules are discovered that are relevant to the article to check -> ie  we create a subset of rules in the Styleguide
+
+Part 2
+Subset of rules become part of the prompt used by open ai ChatCompletion, asking the question, is this article compliant with these rules.
+![image](https://github.com/user-attachments/assets/3ffab33a-3f83-49cb-8628-87aa1f671e41)
 
 ## Dataset
 The dataset used in this project is a sample of newsroom-specific set of guildelines that the journalists should check are applied to each article. (xslx file under the data folder).
@@ -39,6 +47,9 @@ Each guideline becomes part of the input data to the model, so the wording must 
 Results can be different each time, (although in the same json format), due to the nature of AI model processing.
 Testing is also tricky due to so many variables: different prompts, different articles, wording of guidelines, different models.
 As newer models are built, these can be plugged in, where we hope for better results.
+
+# Findings
+
 
 
    
