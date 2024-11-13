@@ -50,12 +50,30 @@ As newer models are built, these can be plugged in, where we hope for better res
 
 # Alternative solutions explored
 
-Training a model from scratch
+## Training a model from scratch
 Using Hugging Face's "AutoModelForSequenceClassification" model to train a model using our guidelines labelled as data.
 Eg to get across the incorrect usage of 'astronomer' when it should be astrologer by providing data like this.
 ![image](https://github.com/user-attachments/assets/815a4df7-5c88-440e-9a45-0b9314d40cd0)
 
 Too much data like the above would need generating per guideline to attain any accurate result, thereby making this too time-consuming a task.
+
+## Entity check as a way of identifying rules.
+
+We did not have sufficient rules relevant for this, but a candidate rule might be:
+![image](https://github.com/user-attachments/assets/074cadf3-77c9-4d4d-9f88-bbd417c60bce)
+
+All universities will be set a entities in the article and then searched for. 
+A suggested alternative could be suggested without the need for the prompt.
+
+## Regex
+Other newsrooms have used 1000s of regex rules to find relevant rules. Although v targeted and accurate this has a massive maintenance overhead.
+Open AI solution is more maintainable by a non-technical team.
+
+## Hugging Face models instead of Open AI
+
+Our partner in the project, Alliance France Presse ran the embeddings RAG search using Hugging face’s mixedbread-ai/mxbai-embed-large-v1 with good results.
+
+
 
 
 
