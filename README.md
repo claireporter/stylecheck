@@ -22,11 +22,11 @@ At the bottom of Google Colab a form will be generated to enter your article for
 On clicking 'Generate'
 
 The cost from open ai and pinecone is calculated:
-For example
+
 ![image](https://github.com/user-attachments/assets/d28f89d7-65a3-428f-8dbb-2958b091d986)
 
 Output is json set to a consistent format:
-For example:
+
 ![image](https://github.com/user-attachments/assets/0832baa6-ea29-4547-b895-9eb933939be8)
 
 # Caveats
