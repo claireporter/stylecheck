@@ -48,6 +48,19 @@ Results can be different each time, (although in the same json format), due to t
 Testing is also tricky due to so many variables: different prompts, different articles, wording of guidelines, different models.
 As newer models are built, these can be plugged in, where we hope for better results.
 
+# Alternative solutions explored
+
+Training a model from scratch
+Using Hugging Face's "AutoModelForSequenceClassification" model to train a model using our guidelines labelled as data.
+Eg to get across the incorrect usage of 'astronomer' when it should be astrologer by providing data like this.
+![image](https://github.com/user-attachments/assets/815a4df7-5c88-440e-9a45-0b9314d40cd0)
+
+Too much data like the above would need generating per guideline to attain any accurate result, thereby making this too time-consuming a task.
+
+
+
+
+
 # Findings
 
 
