@@ -5,7 +5,8 @@ The goal of this project an AI-driven process whereby a newsroom specific style 
 It is part of the Journalism AI Fellowship of 2024, as a collaboration between the Irish Examiner and Alliance France Presse.
 
 ## How to use
-To run this project, open the notebook stylecheckAI.ipynb in Google Colab and start executing each cell as instructed. 
+To run this project:
+open the notebook stylecheckAI.ipynb in Google Colab and start executing each cell as instructed. 
 (click on stylecheckAI.ipynb and click on Colab button)
 ![image](https://github.com/user-attachments/assets/6a17c4d3-4019-455c-a6b2-6409c7b57439)
 
