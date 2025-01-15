@@ -4,25 +4,6 @@ This repository contains an AI implementation to check an newsroom article again
 The goal of this project an AI-driven process whereby a newsroom specific style guide is applied to an article.
 It is part of the Journalism AI Fellowship of 2024, as a collaboration between the Irish Examiner and Alliance France Presse.
 
-## Purpose 
-This is a playground to check effectiveness of guidelines and models for accuracy of results, as well as speed and cost per usage.
-For our project editors could use a similar playground to improve the comprehensibility of their guidelines by the AI models.
-This is an editing tool for journalists to check their work after writing their article.
-In production it would look like this:
-![image](https://github.com/user-attachments/assets/c52e5986-63c7-47b4-9174-d3350bbe4f5d)
-
-## How it works
-This works in 2 stages.
-Part 1 
-Rules are discovered that are relevant to the article to check -> ie  we create a subset of rules in the Styleguide
-
-Part 2
-Subset of rules become part of the prompt used by open ai ChatCompletion, asking the question, is this article compliant with these rules.
-![image](https://github.com/user-attachments/assets/3ffab33a-3f83-49cb-8628-87aa1f671e41)
-
-## Dataset
-The dataset used in this project is a sample of newsroom-specific set of guildelines that the journalists should check are applied to each article. (xslx file under the data folder).
-
 ## How to use
 To run this project, open the notebook stylecheckAI.ipynb in Google Colab and start executing each cell as instructed. 
 (click on stylecheckAI.ipynb and click on Colab button)
@@ -43,6 +24,27 @@ Output is json set to a consistent format:
 The cost from open ai and pinecone is calculated:
 
 ![image](https://github.com/user-attachments/assets/205f06af-8d01-4af5-8509-d132be464333)
+
+## Purpose 
+This is a playground to check effectiveness of guidelines and models for accuracy of results, as well as speed and cost per usage.
+For our project editors could use a similar playground to improve the comprehensibility of their guidelines by the AI models.
+This is an editing tool for journalists to check their work after writing their article.
+In production it would look like this:
+![image](https://github.com/user-attachments/assets/c52e5986-63c7-47b4-9174-d3350bbe4f5d)
+
+## How it works
+This works in 2 stages.
+Part 1 
+Rules are discovered that are relevant to the article to check -> ie  we create a subset of rules in the Styleguide
+
+Part 2
+Subset of rules become part of the prompt used by open ai ChatCompletion, asking the question, is this article compliant with these rules.
+![image](https://github.com/user-attachments/assets/3ffab33a-3f83-49cb-8628-87aa1f671e41)
+
+## Dataset
+The dataset used in this project is a sample of newsroom-specific set of guildelines that the journalists should check are applied to each article. (xslx file under the data folder).
+
+
 
 # Caveats
 
