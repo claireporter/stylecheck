@@ -1,6 +1,6 @@
 # Style Check
 
-This repository contains an AI implementation to check an newsroom article against a style guilde. It is developed using Open AI's gpt-4o-mini, text-embedding-3-large plus Pinecone Semantic Search.   
+This repository contains an AI implementation to check an newsroom article against a style guide. It is developed using Open AI's gpt-4o-mini, text-embedding-3-large plus Pinecone Semantic Search.   
 The goal of this project an AI-driven process whereby a newsroom specific style guide is applied to an article.
 It is part of the Journalism AI Fellowship of 2024, as a collaboration between the Irish Examiner and Alliance France Presse.
 
@@ -70,9 +70,14 @@ Other newsrooms have used 1000s of regex rules to find relevant rules. Although 
 Open AI solution is more maintainable by a non-technical team.
 
 ## Hugging Face models instead of Open AI
+Our partner in the project, Alliance France Presse at one stage ran the embeddings RAG search using Hugging face’s mixedbread-ai/mxbai-embed-large-v1
 
-Our partner in the project, Alliance France Presse ran the embeddings RAG search using Hugging face’s mixedbread-ai/mxbai-embed-large-v1 with good results.
+## Delivering the above in a Custom GPT
+Go to https://chat.openai.com/gpts/editor and click on Create 
+Saving excel file in the cloud instead of upload
 
+The same openai technology is used compared to this github solution so results were the same
+Slightly harder to secure
 
 
 
