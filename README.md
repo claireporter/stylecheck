@@ -23,8 +23,11 @@ Subset of rules become part of the prompt used by open ai ChatCompletion, asking
 ## Dataset
 The dataset used in this project is a sample of newsroom-specific set of guildelines that the journalists should check are applied to each article. (xslx file under the data folder).
 
-## Usage
+## How to use
 To run this project, open the notebook stylecheckAI.ipynb in Google Colab and start executing each cell as instructed. 
+(click on stylecheckAI.ipynb and click on Colab button)
+![image](https://github.com/user-attachments/assets/6a17c4d3-4019-455c-a6b2-6409c7b57439)
+
 The notebook contains detailed instructions.
 At the bottom of Google Colab a form will be generated to enter your article for testing.
 ![image](https://github.com/user-attachments/assets/e0beeefc-9685-47d3-93ea-435e4ccec6e2)
