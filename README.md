@@ -7,10 +7,11 @@ It is part of the Journalism AI Fellowship of 2024, as a collaboration between t
 ## How to use
 To run this project:
 * open the notebook stylecheckAI.ipynb in Google Colab (click on stylecheckAI.ipynb and click on Colab button)
+
 * start executing each cell as instructed. 
 ![image](https://github.com/user-attachments/assets/6a17c4d3-4019-455c-a6b2-6409c7b57439)
 
-The notebook contains detailed instructions.
+* The notebook contains detailed instructions.
 At the bottom of Google Colab a form will be generated to enter your article for testing.
 ![image](https://github.com/user-attachments/assets/e0beeefc-9685-47d3-93ea-435e4ccec6e2)
 
