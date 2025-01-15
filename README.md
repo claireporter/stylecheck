@@ -83,12 +83,9 @@ The same openai technology is used compared to this github solution so results w
 Slightly harder to secure
 
 
+# More details and findings
 
-
-
-
-# Findings
-
+Watch this space
 
 
    
