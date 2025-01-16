@@ -6,6 +6,7 @@ It is part of the Journalism AI Fellowship of 2024, as a collaboration between t
 
 More details: 
 
+[Journalism AI 2024] (https://www.journalismai.info/fellowship/previous-fellowships/2024)
 [StyleCheck presentation](https://www.youtube.com/watch?v=xk3JNnxOOnE)      
 [PDF of our presentation](https://github.com/claireporter/stylecheck/blob/main/StyleCheck.pdf)
 
