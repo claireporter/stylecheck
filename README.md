@@ -3,7 +3,9 @@
 This repository contains an AI implementation to check an newsroom article against a style guide. It is developed using Open AI's gpt-4o-mini, text-embedding-3-large plus Pinecone Semantic Search.   
 The goal of this project an AI-driven process whereby a newsroom specific style guide is applied to an article.
 It is part of the Journalism AI Fellowship of 2024, as a collaboration between the Irish Examiner and Alliance France Presse.
-More details presenation here https://www.youtube.com/watch?v=xk3JNnxOOnE and in the pdf of our presentation here https://github.com/claireporter/stylecheck/blob/main/StyleCheck.pdf
+More details: 
+[StyleCheck presentation](https://www.youtube.com/watch?v=xk3JNnxOOnE)
+[PDF of our presentation](https://github.com/claireporter/stylecheck/blob/main/StyleCheck.pdf)
 
 ## How to use
 To run this project:
